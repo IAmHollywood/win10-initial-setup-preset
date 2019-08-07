@@ -11,9 +11,9 @@
 RequireAdmin
 
 
-###
+######################
 ### Privacy Tweaks ###
-###
+######################
 DisableTelemetry                # EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
 DisableWebSearch                # EnableWebSearch
@@ -29,20 +29,20 @@ DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
 DisableBiometrics               # EnableBiometrics
 DisableErrorReporting           # EnableErrorReporting
-SetP2PUpdateDisable             # SetP2PUpdateLocal             # SetP2PUpdateInternet
+SetP2PUpdateDisable             # SetP2PUpdateLocal
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 EnableClearRecentFiles          # DisableClearRecentFiles
-# Unused Tweaks #
+### Unused Tweaks ###
 # DisableRecentFiles            # EnableRecentFiles
 # DisableSmartScreen            # EnableSmartScreen
 # DisableSensors                # EnableSensors
 # DisableCamera                 # EnableCamera
 
 
-###
+#######################
 ### Security Tweaks ###
-###
+#######################
 DisableAdminShares              # EnableAdminShares
 DisableNetBIOS                  # EnableNetBIOS
 DisableLLMNR                    # EnableLLMNR
@@ -60,7 +60,7 @@ DisableScriptHost               # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 EnableF8BootMenu                # DisableF8BootMenu
 SetDEPOptOut                    # SetDEPOptIn
-# Unused Tweaks #
+### Unused Tweaks ###
 # SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 # DisableSMB1                   # EnableSMB1
@@ -74,9 +74,9 @@ SetDEPOptOut                    # SetDEPOptIn
 # DisableRecoveryAndReset       # EnableRecoveryAndReset
 
 
-###
+######################
 ### Service Tweaks ###
-###
+######################
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
 DisableHomeGroups               # EnableHomeGroups
 DisableSharedExperiences        # EnableSharedExperiences
@@ -89,8 +89,8 @@ DisableIndexing                 # EnableIndexing
 EnableNTFSLongPaths             # DisableNTFSLongPaths
 SetBIOSTimeUTC                  # SetBIOSTimeLocal
 DisableHibernation              # EnableHibernation
-  DisableFastStartup            # EnableFastStartup
-# Unused Tweaks #
+DisableFastStartup              # EnableFastStartup
+### Unused Tweaks ###
 # DisableUpdateMSRT             # EnableUpdateMSRT
 # DisableUpdateDriver           # EnableUpdateDriver
 # EnableUpdateMSProducts        # DisableUpdateMSProducts
@@ -106,9 +106,9 @@ DisableHibernation              # EnableHibernation
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
 
-###
+#################
 ### UI Tweaks ###
-###
+#################
 DisableActionCenter             # EnableActionCenter
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
@@ -117,10 +117,10 @@ DisableAeroShake                # EnableAeroShake
 DisableAccessibilityKeys        # EnableAccessibilityKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
-HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
+HideTaskbarSearch               # ShowTaskbarSearchBox
 HideTaskView                    # ShowTaskView
 ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
-SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
+SetTaskbarCombineWhenFull       # SetTaskbarCombineNever
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 DisableSearchAppInStore         # EnableSearchAppInStore
 DisableNewAppPrompt             # EnableNewAppPrompt
@@ -132,12 +132,12 @@ EnableTitleBarColor             # DisableTitleBarColor
 EnableDarkTheme                 # DisableDarkTheme
 EnableVerboseStatus             # DisableVerboseStatus
 DisableF1HelpKey                # EnableF1HelpKey
-# Unused Tweaks #
+### Unused Tweaks ###
 # DisableLockScreen             # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 # EnableFileDeleteConfirm       # DisableFileDeleteConfirm
 # ShowTrayIcons                 # HideTrayIcons
-# SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
+# SetControlPanelSmallIcons     # SetControlPanelCategories
 # HideShortcutArrow             # ShowShortcutArrow
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
@@ -147,9 +147,9 @@ DisableF1HelpKey                # EnableF1HelpKey
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
 
 
-###
+##########################
 ### Explorer UI Tweaks ###
-###
+##########################
 ShowExplorerTitleFullPath       # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
 ShowHiddenFiles                 # HideHiddenFiles
@@ -173,7 +173,7 @@ HideShareMenu                   # ShowShareMenu
 DisableThumbnails               # EnableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
-# Unused Tweaks #
+### Unused Tweaks ###
 # ShowSuperHiddenFiles          # HideSuperHiddenFiles
 # ShowEmptyDrives               # HideEmptyDrives
 # ShowNavPaneAllFolders         # HideNavPaneAllFolders
@@ -195,9 +195,9 @@ DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 # HideVideosFromExplorer        # ShowVideosInExplorer
 
 
-###
+##########################
 ### Application Tweaks ###
-###
+##########################
 DisableOneDrive                 # EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
@@ -214,11 +214,11 @@ UninstallMediaPlayer            # InstallMediaPlayer
 UninstallInternetExplorer       # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
 UninstallPowerShellV2           # InstallPowerShellV2
-InstallLinuxSubsystem           # UninstallLinuxSubsystem
+# InstallLinuxSubsystem           # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
-# Unused Tweaks #
+### Unused Tweaks ###
 # UninstallWindowsStore         # InstallWindowsStore
 # InstallNET23                  # UninstallNET23
 # SetPhotoViewerAssociation     # UnsetPhotoViewerAssociation
@@ -227,20 +227,9 @@ RemoveFaxPrinter                # AddFaxPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
 
 
-###
-### Server Specific Tweaks ###
-###
-# HideServerManagerOnLogin      # ShowServerManagerOnLogin
-# DisableShutdownTracker        # EnableShutdownTracker
-# DisablePasswordPolicy         # EnablePasswordPolicy
-# DisableCtrlAltDelLogin        # EnableCtrlAltDelLogin
-# DisableIEEnhancedSecurity     # EnableIEEnhancedSecurity
-# EnableAudio                   # DisableAudio
-
-
-###
+#################
 ### Unpinning ###
-###
+#################
 UnpinStartMenuTiles
 UnpinTaskbarIcons
 
