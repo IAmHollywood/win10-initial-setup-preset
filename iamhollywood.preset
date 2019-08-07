@@ -214,7 +214,6 @@ UninstallMediaPlayer            # InstallMediaPlayer
 UninstallInternetExplorer       # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
 UninstallPowerShellV2           # InstallPowerShellV2
-InstallLinuxSubsystem           # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
@@ -225,6 +224,7 @@ RemoveFaxPrinter                # AddFaxPrinter
 # AddPhotoViewerOpenWith        # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
+# InstallLinuxSubsystem         # UninstallLinuxSubsystem
 
 
 #################
